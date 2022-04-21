@@ -1,0 +1,95 @@
+:root {
+    /* Colors */
+    --light-color: #ffffff;
+    --dark-color: #141414;
+    --gray-color: #ebebeb;
+    --mint-green: #f1fffa;
+    --tea-green: #ccfccb;
+    --celadon-color: #96e6b3;
+    --middle-green: #568259;
+    --ebony-color: #464e47;
+    --cream-color: #fffdd0;
+    --dark-orange: #ff8c00;
+
+    /* Fonts */
+  --roboto-serif: "Roboto Serif", sans-serif;
+  --redressed-font: "Redressed", cursive;
+  --opensans-font: "Open Sans", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a,
+  li,
+  ul {
+    list-style: none;
+    text-decoration: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--dark-color);
+    color: var(--mint-green);
+    font-family: var(--redressed-font);
+    position: fixed;
+    width: 100%;
+    font-family: var(--redressed-font);
+  }
+  .navBar {
+    display: flex;
+    align-items: center;
+  }
+  .navList {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+  .navItem {
+    color: var(--mint-green);
+    font-size: 1.25rem;
+    font-family: var(--opensans-font);
+  }
+  .navItem:hover {
+    color: var(--celadon-color);
+    transition: 0.3s;
+  }
+
+  .coffeeMain {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .coffeeSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem;     
+  }
+  .getCoffee{
+      padding: 0.25rem 1rem;
+  }
+  .coffeeDiv2{
+    padding: 0.25rem 1rem;
+    border: hidden;
+  }
+  .coffeeItem{
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+  }
+  .cofDesc, .cofIngre{
+    font-size: 20px;
+  }

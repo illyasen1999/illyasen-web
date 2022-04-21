@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/android-chrome-512x512.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Redressed&family=Roboto+Serif:ital,wght@0,200;1,400&display=swap" rel="stylesheet"><title>Personal Website</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="../src/main.js"></script> 
+</head>
+<body>
+    <header class="header">
+        <h1 class="logoBrand">Illyasen</h1>
+
+        <nav class="navBar">
+            <ul class="navList">
+                <li><a href="#main" class="navItem">Home</a></li>
+                <li><a href="#languages" class="navItem">Languages</a></li>
+                <li><a href="#contacts" class="navItem">Contacts</a></li>
+                <li><a href="api.html" class="navItem">Coffee☕️</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mainContent" id="main">
+        <!-- Top Content -->
+        <div class="topBanner">
+            <section class="mainBanner">
+                <h1 class="name">Illyasen</h1>
+                <hr>
+                <h3 class="webDev">Aspiring Web Developer 💻</h3>
+                <p class="cPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel cupiditate ullam voluptatibus laborum quod harum facilis corrupti aspernatur laudantium.</p>
+                <button class="modalBtn">See More</button>
+            </section>
+            <br>
+
+            <section class="mainBannerImage">
+                <img src="../img/programming.svg" alt="" class="bannerImage">
+            </section>
+
+            <div class="modal" id="modal">
+                <div class="modalContent">
+                    <span id="close">&times;</span>
+                    <div class="samplecContent">
+                        <h2>Hello</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla id perferendis temporibus, magni omnis beatae dolorum sed pariatur, rem quae ab harum veritatis vel laborum sint perspiciatis facere ullam voluptatem dolores. Optio libero, fugiat eligendi officia tenetur repellat molestias harum id illum ab quibusdam ipsum beatae voluptate quia quasi illo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="languages" id="languages">
+            <section class="languageImage">
+                <img src="../img/frontend.svg" alt="" class="frontendImg">
+            </section>
+
+            <section class="frontLanguage">
+                <div class="htmlLang">
+                    <h3 class="html">✅HTML</h3>
+                    <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</p>
+                </div>
+
+                <div class="cssLang">
+                    <h3 class="css">✅CSS</h3>
+                    <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+                </div>
+
+                <div class="javascriptLang">
+                    <h3 class="js">✅Javascript</h3>
+                    <p>JavaScript is high-level, often just-in-time compiled and multi-paradigm. It has dynamic typing, prototype-based object-orientation and first-class functions.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- JS -->
+        <div class="jsDiv">
+            <div class="jsDesc">
+                <h3 class="jsTitle">📝Currently Learning and Improving</h3>
+                <p class="jsPara"> <strong>JavaScript</strong> is used by programmers across the world to create dynamic and interactive web content like applications and browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language by 97.0% of all websites </p>
+            </div>
+            
+
+            <img src="../img/js-logo.svg" alt="" class="js-logo">
+        </div>
+
+        <!-- JS Framworks -->
+        <div class="jsFrameworksDiv">
+            <div class="jsFrameworksDesc">
+                <h3 class="jsFrameworksTitle">💭Interested</h3>
+                <p class="jsFrameworksPara"> <strong>JavaScript framework</strong> is a collection of JavaScript code libraries that provide a web developer with pre-written code for routine programming tasks. Frameworks are structures with a particular context and help you create web applications within that context.</p>
+            </div>
+            
+
+            <img src="../img/js-frameworks.svg" alt="" class="js-frameworks">
+        </div>
+
+        <!-- Contacts -->
+        <div class="contacts" id="contacts">
+            <address class="address">
+                #97, Purok 1, Cansinala, Apalit, Pampanga
+            </address>
+
+            <div class="socialMedia">
+                <h5>Socials</h5>
+                <a href="https://facebook.com" target="_blank" class="socialMediaLinks">FB: Illyasen Von Einzbern</a>
+                <a href="https://twitter.com" target="_blank" class="socialMediaLinks">Twitter: Illyasen \(^o^)/</a>
+                <a href="https://github.com" target="_blank" class="socialMediaLinks">Github: illyasen1999</a>
+            </div>
+
+            <div class="otherContacts">
+                <h5>My Contact Number</h5>
+                <p>+639-999-9999</p>
+            </div>
+
+            
+            <div class="randomResult">
+                <h3>Javascript Sample</h3>
+                <button class="generateRandom">Generate Random Number</button>
+                <button class="deleteRandom">Delete Number</button>
+                <div class="resultsDiv">
+                    <div class="randomresult"></div>
+                </div>
+            </div>
+        </div>
+    </main>   
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="socials">
+            <a href="https://twitter.com" target="_blank"><img src="../img/twitter.svg" alt="" class="footerImg"></a>
+            <a href="https://github.com" target="_blank"><img src="../img/github.svg" alt="" class="footerImg"></a>
+        </div>
+
+        <div class="copyrightDiv">
+            <h5 class="copyright">Illyasen &copy;</h5>
+        </div>  
+    </footer>
+</body>
+</html>
